@@ -16,6 +16,7 @@ main() {
 		scanf("%f", &vet[i].preco);
 		printf("\nInsira a quantidade em estoque : ");
 		scanf("%d", &vet[i].quantidade);
+		printf("\n--------------------------");
 	}
 	
 	for(i = 0; i < 5; i++) {

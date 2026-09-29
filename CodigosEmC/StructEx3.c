@@ -20,7 +20,7 @@ main() {
 		scanf("%f", &vet[i].nota2);
 
 		vet[i].media = (vet[i].nota1 + vet[i].nota2)/2;
-
+		
 		if(vet[i].media>=7) {
 			vet[i].aprovado = true;
 		} else {
